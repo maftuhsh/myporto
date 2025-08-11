@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Maftuh Siroj Hamdani — Portofolio</title>
+  <meta name="description" content="Portofolio profesional Nama Anda — Digital Creator & E-commerce Enthusiast." />
+  <meta property="og:title" content="Nama Anda — Portofolio" />
+  <meta property="og:description" content="Portofolio profesional Nama Anda — Digital Creator & E-commerce Enthusiast." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#4f46e5" />
+
+  <link rel="icon" href="https://placehold.co/32x32/7c3aed/ffffff.png?text=M" />
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config = { darkMode: 'class' };</script>
+
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <style>
+    :root { --accent: #6366f1; --tokopedia: #03ac0e; }
+    html,body { font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; }
+    .glass { background-color: rgba(255,255,255,0.6); backdrop-filter: blur(6px); }
+    .glass-dark { background-color: rgba(17,24,39,0.5); backdrop-filter: blur(6px); }
+    .tokopedia-btn { background: linear-gradient(180deg,var(--tokopedia),#02940c); }
+  </style>
+</head>
+<body class="antialiased bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-100 transition-colors duration-500 overflow-x-hidden">
+
+  <!-- Theme toggle -->
+  <div class="fixed top-4 right-4 z-50">
+    <button id="theme-toggle" aria-label="Toggle theme" class="p-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-400 bg-white dark:bg-gray-800 shadow-md">
+      <svg id="icon-sun" class="w-5 h-5 hidden" fill="currentColor" viewBox="0 0 20 20"><path d="M10 3a1 1 0 011 1v1a1 1 0 11-2 0V4a1 1 0 011-1zM4.22 5.636a1 1 0 011.415 0l.707.707a1 1 0 11-1.414 1.414l-.707-.707a1 1 0 010-1.414zM3 10a1 1 0 011-1h1a1 1 0 110 2H4a1 1 0 01-1-1zM5.636 15.78a1 1 0 010-1.415l.707-.707a1 1 0 011.414 1.414l-.707.707a1 1 0 01-1.414 0zM10 17a1 1 0 011-1v-1a1 1 0 10-2 0v1a1 1 0 011 1zM15.78 14.364a1 1 0 01-1.414 0l-.707-.707a1 1 0 111.414-1.414l.707.707a1 1 0 010 1.414zM17 10a1 1 0-1 1v-0h-1a1 1 0 100 2h1a1 1 0 001-1zM14.364 4.22a1 1 0 010 1.415l-.707.707A1 1 0 1112.243 4.53l.707-.707a1 1 0 011.414 0z"></path></svg>
+      <svg id="icon-moon" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+    </button>
+  </div>
+
+  <main class="min-h-screen flex flex-col">
+    <header class="container mx-auto max-w-4xl px-4 sm:px-6 pt-10 pb-6">
+      <nav class="flex items-center justify-between">
+        <a href="#" class="flex items-center gap-3">
+          <img src="https://placehold.co/40x40/7c3aed/ffffff.png?text=M" alt="logo" class="w-10 h-10 rounded-lg shadow-md" />
+          <span class="font-semibold text-lg">Maftuh Siroj Hamdani</span>
+        </a>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="container mx-auto max-w-4xl px-4 sm:px-6 flex-1 flex items-center" aria-labelledby="hero-heading">
+      <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div data-aos="fade-right" data-aos-duration="800">
+          <h1 id="hero-heading" class="text-4xl md:text-5xl font-extrabold leading-tight mb-4">Halo, I'm <span class="text-indigo-600 dark:text-indigo-400">Maftuh Siroj Hamdani</span></h1>
+          <p class="text-lg text-gray-600 dark:text-gray-300 mb-6">Electrical Engineering Student </p>
+          <p class="mt-6 text-sm text-gray-500 dark:text-gray-400">
+            Preferensi kontak: lihat tautan sosial di bawah • 
+            <a href="CV-maftuhsirojhamdani.pdf" class="underline text-indigo-600 dark:text-indigo-400 font-medium">Unduh CV</a>
+          </p>
+        </div>
+
+        <div class="flex justify-center md:justify-end" data-aos="fade-left" data-aos-duration="800">
+          <div class="relative w-56 h-56 md:w-64 md:h-64 rounded-2xl shadow-2xl glass dark:glass-dark overflow-hidden ring-4 ring-offset-4 ring-offset-gray-50 dark:ring-offset-gray-900 ring-indigo-200 dark:ring-indigo-900">
+            <img src="https://avatars.githubusercontent.com/u/162122749?s=400&u=4bc85151b1515dc1ce1361115b1185beec6f1899&v=4" alt="Foto Profil" class="w-full h-full object-cover" />
+            <div class="absolute bottom-4 left-4 bg-white/70 dark:bg-gray-800/60 px-3 py-2 rounded-md backdrop-blur-sm">
+              <p class="font-semibold">Maftuh Siroj Hamdani</p>
+              <p class="text-xs text-gray-600 dark:text-gray-300">Electrical Engineering Student | Junior of Embedded System | Tech Enthusiast</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="container mx-auto max-w-4xl px-4 sm:px-6 mt-12 mb-6" data-aos="fade-up">
+      <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-8 glass dark:glass-dark">
+        <h2 class="text-2xl font-bold mb-3">About me</h2>
+        <p class="text-gray-600 dark:text-gray-300">I am an Electrical Engineering student at the National Institute of Technology Malang. I have a strong interest in technological innovation, particularly in automation, instrumentation, circuit design, and smart system integration. I enjoy exploring various projects that combine creativity to create practical solutions for everyday life. In my view, technology is essential because it helps simplify life and bring a positive impact. </p>
+      </div>
+
+      <!-- shop Card -->
+      <div class="mt-6 bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-6 glass dark:glass-dark flex flex-col sm:flex-row items-center justify-between" data-aos="fade-up" data-aos-delay="100">
+        <div class="flex items-center gap-4">
+          <i class="fas fa-store fa-2x text-green-600"></i>
+          <div>
+            <h3 class="font-semibold text-lg">Kunjungi Toko Saya</h3>
+            <p class="text-sm text-gray-500 dark:text-gray-400">Temukan hal menarik disini dan pastinya  aman langsung dari saya.</p>
+          </div>
+        </div>
+        <a href="https://lynk.id/" target="_blank" rel="noopener" class="mt-4 sm:mt-0 inline-flex items-center px-5 py-3 rounded-lg tokopedia-btn text-white font-semibold shadow hover:scale-105 transform transition">
+          Go to shop
+        </a>
+      </div>
+
+            <!-- project Card -->
+      <div class="mt-6 bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-6 glass dark:glass-dark flex flex-col sm:flex-row items-center justify-between" data-aos="fade-up" data-aos-delay="100">
+        <div class="flex items-center gap-4">
+          <i class="fas fa-book fa-2x text-red-600"></i>
+          <div>
+            <h3 class="font-semibold text-lg">lihat Project saya</h3>
+            <p class="text-sm text-gray-500 dark:text-gray-400">lihat beberapa project yang sudah saya buat.</p>
+          </div>
+        </div>
+            <a href="https://github.com/maftuhsh?tab=repositories" target="_blank" rel="noopener" class="mt-4 sm:mt-0 inline-flex items-center px-5 py-3 rounded-lg bg-red-600 text-white font-semibold shadow hover:bg-red-700 hover:scale-105 transform transition">
+          Show Project
+          </a>
+      </div>
+    </section>
+
+    <!-- Socials -->
+    <section id="socials" class="container mx-auto max-w-4xl px-4 sm:px-6 mb-20" data-aos="fade-up" data-aos-delay="100">
+      <div class="text-center">
+        <h3 class="text-xl font-bold mb-4">Terhubung Dengan Saya</h3>
+        <p class="text-sm text-gray-500 dark:text-gray-400 mb-6">Semua kontak melalui sosial media saya.</p>
+
+        <div class="inline-flex flex-wrap justify-center gap-4 bg-white dark:bg-gray-800 glass dark:glass-dark p-4 rounded-xl shadow">
+          <a href="https://instagram.com/maftuh.sh" target="_blank" rel="noopener" class="hover:scale-110 transition p-2"><i class="fab fa-instagram fa-2x"></i></a>
+          <a href="https://tiktok.com/@maftuh.sh" target="_blank" rel="noopener" class="hover:scale-110 transition p-2"><i class="fab fa-tiktok fa-2x"></i></a>
+          <a href="https://x.com/Maftuhhh117700?t=66NLSQ_JlUrQ1Vwx4_-NTw&s=09" target="_blank" rel="noopener" class="hover:scale-110 transition p-2"><i class="fab fa-x-twitter fa-2x"></i></a>
+          <a href="https://www.linkedin.com/in/maftuh-siroj-hamdani/" target="_blank" rel="noopener" class="hover:scale-110 transition p-2"><i class="fab fa-linkedin-in fa-2x"></i></a>
+          <a href="https://github.com/maftuhsh" target="_blank" rel="noopener" class="hover:scale-110 transition p-2"><i class="fab fa-github fa-2x"></i></a>
+          <a href="mailto:maftuhsirojhamdaniii@gmail.com" class="hover:scale-110 transition p-2"><i class="fas fa-envelope fa-2x"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="mt-auto py-8 border-t border-gray-100 dark:border-gray-800">
+      <div class="container mx-auto max-w-4xl px-4 sm:px-6 text-center text-sm text-gray-500 dark:text-gray-400">
+        <p>&copy; <span id="year">2025</span> Maftuh Siroj Hamdani. Dibuat dengan cinta.</p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ once: true, duration: 700 });
+
+    const themeToggle = document.getElementById('theme-toggle');
+    const iconSun = document.getElementById('icon-sun');
+    const iconMoon = document.getElementById('icon-moon');
+
+    function setIcons() {
+      if (document.documentElement.classList.contains('dark')) {
+        iconSun.classList.remove('hidden');
+        iconMoon.classList.add('hidden');
+      } else {
+        iconSun.classList.add('hidden');
+        iconMoon.classList.remove('hidden');
+      }
+    }
+
+    if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+    setIcons();
+
+    themeToggle.addEventListener('click', () => {
+      document.documentElement.classList.toggle('dark');
+      localStorage.setItem('color-theme', document.documentElement.classList.contains('dark') ? 'dark' : 'light');
+      setIcons();
+    });
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
